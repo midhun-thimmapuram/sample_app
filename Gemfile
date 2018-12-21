@@ -8,6 +8,10 @@ gem 'test-unit'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.99'
+  gem 'guard-rspec', '4.6.0'
+  gem 'spork-rails', '4.0.0'
+  gem 'guard-spork', '2.1.0'
+  gem 'childprocess', '0.9.0'
 end
 
 group :test do
