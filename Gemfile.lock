@@ -38,6 +38,8 @@ GEM
     arel (6.0.4)
     binding_of_caller (0.8.0)
       debug_inspector (>= 0.0.1)
+    bootstrap-sass (2.3.2.0)
+      sass (~> 3.2)
     builder (3.2.3)
     byebug (10.0.2)
     capybara (2.1.0)
@@ -238,6 +240,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (= 2.3.2.0)
   byebug
   capybara (= 2.1.0)
   childprocess (= 0.9.0)
@@ -255,6 +258,7 @@ DEPENDENCIES
   selenium-webdriver (= 2.35.1)
   spork-rails (= 4.0.0)
   spring
+  sprockets (= 2.11.0)
   sqlite3
   test-unit
   turbolinks (= 1.1.1)
