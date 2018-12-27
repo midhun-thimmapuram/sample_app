@@ -39,6 +39,8 @@ gem 'turbolinks', '1.1.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '1.0.2'
 # bundle exec rake doc:rails generates the API under doc/api.
+gem 'factory_girl_rails', '4.2.0'
+
 group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
